@@ -79,7 +79,6 @@ PyMsgBox==1.0.9
 pyOpenSSL==21.0.0
 pyparsing==2.4.7
 pyperclip==1.8.2
-pypiwin32==223
 PyRect==0.1.4
 pyrsistent==0.18.0
 PyScreeze==0.1.28
@@ -88,8 +87,6 @@ python-telegram-bot==13.10
 pytweening==1.0.4
 pytz==2021.1
 pytz-deprecation-shim==0.1.0.post0
-pywin32==301
-pywinpty==1.1.4
 PyYAML==5.4.1
 pyzmq==22.2.1
 requests==2.25.1
