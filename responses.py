@@ -1,6 +1,5 @@
 from coin_api import *
 
-
 def responses_cases(input):
     user_message = str(input).lower()
 
