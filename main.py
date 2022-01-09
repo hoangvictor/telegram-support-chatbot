@@ -1,6 +1,6 @@
 from telegram.ext import *
+from stockmarket import *
 import responses
-import requests
 import re
 
 API_telegram = "5033657181:AAGxPaISiZbtHehBPZTtSe6NNDDm48y6iuY"
@@ -34,7 +34,9 @@ def main():
 
     dp.add_handler(CommandHandler("start", start_command))
     dp.add_handler(CommandHandler("help", help_command))
+    dp.add_handler(CommandHandler("send", test_sendIMG))
     dp.add_handler(MessageHandler(Filters.text, handle_message))
+
     updater.start_polling()
     updater.idle()
 
