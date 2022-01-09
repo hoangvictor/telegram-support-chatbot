@@ -9,3 +9,5 @@ DevTools listening on ws://localhost:55590/devtools/browser/f9115338-95cc-4a93-8
 JavaScript error: chrome://browser/content/certerror/aboutNetError.js, line 26: ReferenceError: RPMGetInnerMostURI is not defined
 1641725880589	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 JavaScript error: chrome://browser/content/certerror/aboutNetError.js, line 26: ReferenceError: RPMGetInnerMostURI is not defined
+1641726218131	Marionette	INFO	Stopped listening on port 55595
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
