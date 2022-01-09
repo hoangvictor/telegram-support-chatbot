@@ -1,1 +1,11 @@
 1641725636558	geckodriver	INFO	Listening on 127.0.0.1:55429
+1641725866564	geckodriver	INFO	Listening on 127.0.0.1:55589
+1641725869621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55590" "-no-remote" "-profile" "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\rust_mozprofilepgrMOR"
+1641725869880	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN\\AppData\\Local\\Temp\\rust_mozprofilepgrMOR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55590/devtools/browser/f9115338-95cc-4a93-80f3-b0fcf45e765e
+1641725871419	Marionette	INFO	Listening on port 55595
+1641725871678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/certerror/aboutNetError.js, line 26: ReferenceError: RPMGetInnerMostURI is not defined
+1641725880589	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: chrome://browser/content/certerror/aboutNetError.js, line 26: ReferenceError: RPMGetInnerMostURI is not defined
